@@ -1,0 +1,76 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  width: 100%;/*横幅いっぱい*/
+  height: 400px;/*高さ300px*/
+  background-image: url(img/mv.jpg);
+  background-size: cover;/*縦横比を維持したまま背景領域を埋め尽くす*/
+  background-position: center bottom;/*背景画像を中央下揃え*/
+
+}
+
+.main-visual-content{
+  padding: 20px 0 0 20px;/*上側の内側余白で垂直方向の位置を調整*/
+}
+
+main{
+  width: 840px;
+  display: flex;/*Flexboxの利用*/
+  justify-content: center;/*子要素の横並び・中央寄せ*/
+  margin: 0 auto;/*中央寄せ（左右に余白がないと出来ない）*/
+  padding: 50px 0 20px 0;
+}
+
+.blog{
+  width: 840px;
+  margin-right: 30px;/*領域の右側余白*/
+}
+
+.blog-box{
+  width: 840px;
+}
+
+.blog-item{
+  padding-bottom: 30px;
+  margin-bottom:30px;
+  border-bottom: 1px solid #f7f7f7;
+  justify-content: flex-start;
+}
+
+.blog-image{
+  height: 40px;
+}
+
+.blog-image2{
+  height: 10px;
+}
+
+.category{
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.sidebar{
+  width: 230px;
+}
+
+footer{
+  width: 100%;/*横幅いっぱい*/
+  height: 120px;/*高さ120px*/
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text{
+  color: #fff;
+}
