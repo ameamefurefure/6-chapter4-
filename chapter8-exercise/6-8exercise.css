@@ -1,0 +1,131 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+main{
+  margin: 50px auto;/*中央寄せ（左右に余白がないと出来ない）*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*.whole{*/
+/*  width: 960px;*/
+/*  margin: 0 auto*/
+/*}*/
+
+.upper{
+  width: 960px;
+  margin: auto auto 50px auto;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*width: 960px;*/
+  /*margin-bottom: 50px;*/
+}
+
+.upper-list{
+  padding: 20px;
+}
+
+.upper-list:nth-child(odd){
+  background-color: #c0c0c0;
+}
+
+/*.upper-listt:last-child{*/
+/*  margin-bottom: 50px;*/
+/*}*/
+
+.lower{
+  /*justify-content: center;/*子要素の横並び・中央寄せ*/
+  margin: auto;/*中央寄せ（左右に余白がないと出来ない）*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.lower-box{
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.lower-box:nth-child(3), 
+.lower-box:nth-child(6), 
+.lower-box:nth-child(9){
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+  margin-right: 0;
+}
+
+.lower-box:nth-child(1), 
+.lower-box:nth-child(5), 
+.lower-box:nth-child(9){
+  background-color: #ff8c00;
+}
+
+.lower-box:nth-child(7), 
+.lower-box:nth-child(8), 
+.lower-box:nth-child(9){
+  margin-bottom: 0;
+}
+
+
+
+.instagram
+.sidebar-contents{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instagram-box{
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.instagram-box:nth-child(odd){
+  margin: 0 10px 10px 0;
+}
+
+.instagram-box:nth-child(1){
+  background-image: url(img/airport.jpg);
+}
+
+.instagram-box:nth-child(2){
+  background-image: url(img/japan.jpg);
+}
+
+.instagram-box:nth-child(3){
+  background-image: url(img/snow.jpg);
+}
+
+.instagram-box:nth-child(4){
+  background-image: url(img/japan2.jpg);
+}
+
+.instagram-box:nth-child(5){
+  background-image: url(img/lake.jpg);
+}
+
+.instagram-box:nth-child(6){
+  background-image: url(img/road.jpg);
+}
+
+footer{
+  width: 100%;/*横幅いっぱい*/
+  height: 120px;/*高さ120px*/
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text{
+  color: #fff;
+}
