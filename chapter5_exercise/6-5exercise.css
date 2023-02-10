@@ -25,6 +25,9 @@ header{
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
+  /*解答確認後追記*/
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #84828;
 }
 
 .nav-list-item{
@@ -48,7 +51,7 @@ header{
   /*height: 700px;/*高さ700px*/
   /*display: flex;/*Flexboxの利用*/
   justify-content: center;/*子要素の横並び・中央寄せ*/
-  padding: 50px 0;
+  margin: 50px auto;
   /*margin: 0 auto;/*中央寄せ（左右に余白がないと出来ない）*/
 }
 
