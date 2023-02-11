@@ -274,7 +274,7 @@ main{
   }
  .blog-image{
    width: 50%;
-  } 
+  }
   .blog-text{
     width: 50%
   }
@@ -301,7 +301,7 @@ main{
     top: 5px;
     right: 5px;
   }
-  
+
   main{
     width: 100%;
     display: block;
@@ -316,7 +316,7 @@ main{
   }
   .blog-image{
     width: 50%;
-  } 
+  }
   .blog-text{
     width: 50%
   }
@@ -357,7 +357,7 @@ main{
   }
   .blog-image{
     width: 50%;
-  } 
+  }
   .blog-text{
     width: 50%
   }
@@ -373,6 +373,6 @@ main{
   .sidebar-contents{
     padding: 50px 10px;
   }
-    
+
 }
 
