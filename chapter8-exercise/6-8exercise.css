@@ -53,8 +53,8 @@ main{
   margin-bottom: 40px;
 }
 
-.lower-box:nth-child(3), 
-.lower-box:nth-child(6), 
+.lower-box:nth-child(3),
+.lower-box:nth-child(6),
 .lower-box:nth-child(9){
   width: 30%;
   height: 200px;
@@ -62,14 +62,14 @@ main{
   margin-right: 0;
 }
 
-.lower-box:nth-child(1), 
-.lower-box:nth-child(5), 
+.lower-box:nth-child(1),
+.lower-box:nth-child(5),
 .lower-box:nth-child(9){
   background-color: #ff8c00;
 }
 
-.lower-box:nth-child(7), 
-.lower-box:nth-child(8), 
+.lower-box:nth-child(7),
+.lower-box:nth-child(8),
 .lower-box:nth-child(9){
   margin-bottom: 0;
 }
