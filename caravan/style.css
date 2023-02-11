@@ -7,7 +7,7 @@
 }
 
 a{
-  text-decoration: none;c
+  text-decoration: none;
 }
 
 header, nav, h2, .main-visual, footer{
@@ -230,3 +230,149 @@ footer{
 .footer-text{
   color: #fff;
 }
+
+/*タブレット横置きサイズ（1024px）以下の際に適用される設定*/
+/*@media screen and (max-width:1024px){*/
+/* .social i{*/
+/*  color: green;*/
+/* }*/
+/*}*/
+
+/*全ての画面サイズで適用される設定*/
+main{
+  width: 800px;
+  display: flex;
+  margin: 0 auto;/*中央寄せ*/
+}
+.blog{
+  width: 540px;
+}
+.blog-image{
+  height: 180px;
+}
+
+/*タブレット横置きサイズ（1024px）以下の際に適用される設定*/
+@media screen and (max-width:1024px){
+  header{
+     position: static;
+  }
+  .social  {
+    top: 5px;
+    right: 5px;
+  }
+  main{
+    width: 100%;
+    display: block;
+    /*margin: 0 auto;/*中央寄せ*/
+    padding: 5px;
+  }
+  .blog-heading{
+    margin-top: 50px;
+  }
+  .blog{
+    width: 100%;
+  }
+ .blog-image{
+   width: 50%;
+  } 
+  .blog-text{
+    width: 50%
+  }
+  .popular-heading{
+    margin-top: 50px
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .instagram-box{
+    margin: 0 10px 10px 0;
+  }
+  .sidebar-contents{
+    padding: 50px 10px;
+  }
+}
+
+/*タブレット縦置きサイズ（768px）以下の際に適用される設定*/
+@media screen and (max-width:768px){
+  header{
+     position: static;
+  }
+  .social  {
+    top: 5px;
+    right: 5px;
+  }
+  
+  main{
+    width: 100%;
+    display: block;
+    /*margin: 0 auto;/*中央寄せ*/
+    adding: 5px;
+  }
+  .blog-heading{
+    margin-top: 50px;
+  }
+  .blog{
+    width: 100%;
+  }
+  .blog-image{
+    width: 50%;
+  } 
+  .blog-text{
+    width: 50%
+  }
+  .popular-heading{
+    margin-top: 50px
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .instagram-box{
+    margin: 0 10px 10px 0;
+  }
+  .sidebar-contents{
+    padding: 50px 10px;
+  }
+}
+
+/*スマートフォンサイズ（425px）以下の際に適用される設定*/
+@media screen and (max-width:425px){
+  header{
+     position: static;
+  }
+  .social  {
+    top: 5px;
+    right: 5px;
+  }
+  main{
+    width: 100%;
+    display: block;
+    /*margin: 0 auto;/*中央寄せ*/
+    adding: 5px;
+  }
+  .blog-heading{
+    margin-top: 50px;
+  }
+  .blog{
+  width: 100%;
+  }
+  .blog-image{
+    width: 50%;
+  } 
+  .blog-text{
+    width: 50%
+  }
+  .popular-heading{
+    margin-top: 50px
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .instagram-box{
+    margin: 0 10px 10px 0;
+  }
+  .sidebar-contents{
+    padding: 50px 10px;
+  }
+    
+}
+
